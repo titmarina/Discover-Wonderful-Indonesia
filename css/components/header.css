@@ -1,5 +1,97 @@
 .header__container {
-    background-image: url('/images/Background.png');
-    background-size: cover;
+  display: inline-block;
+  width: 100%;
+  height: 1200px;
+  background-image: url("/images/Background.png");
+  background-size: cover;
+}
 
+.header__menu {
+  margin: 65px 84px 0 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navigation-list {
+  display: flex;
+}
+
+.header__navigation-list-item {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.header__navigetion-link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__input {
+  background-color: transparent;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+}
+
+/* HEADER TITLE*/
+
+.header__container__title {
+  margin: 196px 0px 0 79px;
+  display: flex;
+}
+
+.header__social {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.header__title {
+  margin-left: 247px;
+}
+
+.header__line {
+  width: 72px;
+  height: 2px;
+  background: #ffc178;
+}
+
+.header__subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  color: #ffc178;
+}
+
+.title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 100px;
+text-transform: capitalize;
+color: #FFFFFF;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+span {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
 }

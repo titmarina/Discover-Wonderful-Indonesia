@@ -43,8 +43,13 @@
 /* HEADER TITLE*/
 
 .header__container__title {
-  margin: 196px 0px 0 79px;
+  margin: 126px 0px 0 28px;
   display: flex;
+}
+
+.header__social__title {
+  writing-mode: vertical-rl;
+  color: aliceblue;
 }
 
 .header__social {
@@ -57,11 +62,17 @@
 .header__title {
   margin-left: 247px;
 }
+.header__subtitle-decoration{
+  display: flex;
+    align-items: center;
+}
 
 .header__line {
   width: 72px;
   height: 2px;
   background: #ffc178;
+  margin: 0;
+ 
 }
 
 .header__subtitle {
@@ -71,7 +82,8 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 6px;
-  color: #ffc178;
+  color: #ffc178; 
+  margin-left: 32px;
 }
 
 .title {
@@ -94,4 +106,19 @@ span {
 font-style: normal;
 font-weight: 400;
 font-size: 86px;
+}
+
+.header__scrollWindow {
+  margin: 78px 260px 0 673px;;
+}
+
+.scroll__button {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #ffffff;
+background-color: transparent;
+border: none;
 }

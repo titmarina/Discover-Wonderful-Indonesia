@@ -72,7 +72,7 @@
   height: 2px;
   background: #ffc178;
   margin: 0;
- 
+  border: none; 
 }
 
 .header__subtitle {

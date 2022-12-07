@@ -3,6 +3,11 @@ body {
     margin: 0 auto;
     
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     src: url('/fonts/static/OpenSans/OpenSans-SemiBold.ttf')
+}
+
+main {
+    background-color: black;
+    margin: 0 auto;
 }

@@ -1,0 +1,30 @@
+.main__content {
+    max-width: 1461px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__content-east {
+ display: contents;
+}
+
+.main__content-text {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  color: #fbd784;
+}
+
+.main__content-subtitle {
+  font-size: 64px;
+  line-height: 87px;
+  color: #ffffff;
+}
+
+.main__content-description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}

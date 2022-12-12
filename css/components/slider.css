@@ -7,16 +7,32 @@
   margin-top: 250px;
 }
 
-.carousel__subtitle-decoration {
-    margin-left: 20px;
+.d-block2 {
+  margin-top: -420px;
 }
+
+.carousel__subtitle-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel__subtitle {
+  padding: 29px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  color: #ffc178; 
+}
+
 .carousel__title {
   font-size: 64px;
   line-height: 87px;
   text-align: center;
-
-  color: #ffffff;
+color: #ffffff;
 }
+
 
 .carousel__title-text {
   font-weight: 600;

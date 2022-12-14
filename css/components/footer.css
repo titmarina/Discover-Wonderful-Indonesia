@@ -8,6 +8,11 @@ footer {
   margin: 0 auto;
 }
 
+.footer__menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__line {
   background: #ffffff;
   mix-blend-mode: normal;
@@ -21,13 +26,60 @@ footer {
   color: #ffffff;
 }
 
+.footer__input {
+  margin-top: 30px;
+}
+
 .footer__search-button {
   width: 69px;
   height: 69px;
+  background: #ffa343;
 }
 
 .footer__search {
   background: #ffa343;
   border-radius: 8px 8px 0px 0px;
   text-decoration: none;
+  color: black;
+}
+
+.footer__menu {
+  display: contents;
+}
+
+.navigation-link {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 2;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.footer__navigation-list {
+  display: flex;
+}
+
+.footer__navigation-list-item {
+  margin-right: 50px;
+}
+
+.footer__copyr {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.footer__copyr-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
 }

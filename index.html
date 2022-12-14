@@ -49,10 +49,10 @@
 
         <div class="header__container__title">
           <div class="header__social">
-            <p class="header__social__title">Follow us</p>
-            <img src="/images/004-instagram.png" alt="instagram" />
-            <img src="/images/Path (1).png" alt="twitter" />
-            <img src="/images/Path.png" alt="facbook" />
+            <a href="#"><p class="header__social__title">Follow us</p></a>
+           <a href="#"> <img src="/images/004-instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="/images/Path (1).png" alt="twitter" /></a>
+            <a href="#"><img src="/images/Path.png" alt="facbook" /></a>
           </div>
           <div class="header__title">
             <div class="header__subtitle-decoration">
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="header__scrollWindow">
-          <button class="scroll__button"><p>Scroll down &#11015;</p></button>
+          <button class="scroll__button" onclick="scrollWin(0, 1000)"><p>Scroll down &#11015;</p></button>
         </div>
       </div>
     </header>
@@ -243,19 +243,90 @@
    
 
     <footer>
+      <hr class="footer__line">
       <div class="footer-wrapper">
-        <hr class="footer__line">
+        <div class="footer__menu-wrapper">
+        
         <div>
-          <h3 class="footer__title">Let's go on vacation,<br> Make your day</h3>
-        </div>
-        <div class="footer__input">
-          <input class="header__input" type="text" value="Email address"/>
-          <button class="footer__search-button">
+          <div>
+            <h3 class="footer__title">Let's go on vacation,<br> Make your day</h3>
+          </div>
+          <div class="footer__input">
+            <input class="header__input" type="text" value="Email address"/>
+            <button class="footer__search-button">
             <a class="footer__search" href="#">></a>
+          </div>
         </div>
 
+        <div class="footer__menu">
+          <div class="footer__menu-navigation">
+            <nav class="navigation">
+              <ul class="navigation-list">
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Services</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Email Marketing</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Campaigns</a></li>
+               <li class="navigation-list-item"> <a class="navigation-link" href="#">Branding</a></li>
+               <li class="navigation-list-item"> <a class="navigation-link" href="#">Offline</a></li>
+            
+               </ul>
+            </nav>
+          </div> 
+          <div class="footer__menu-navigation">
+            <nav class="navigation">
+             <ul class="navigation-list">
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">About</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Our Story</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Benefits</a></li>
+               <li class="navigation-list-item"> <a class="navigation-link" href="#">Team</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Careers</a></li>
+            
+             </ul>
+            </nav>
+          </div>
+
+          <div class="footer__menu-navigation">
+            <nav class="navigation">
+             <ul class="navigation-list">
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">Help</a></li>
+                <li class="navigation-list-item"> <a class="navigation-link" href="#">FAQs</a></li>
+               <li class="navigation-list-item"> <a class="navigation-link" href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-    </footer> </main>
+      
+
+    
+        <div class="footer__social">
+          <div class="footer__social-navigation">
+            <nav class="navigation">
+             <ul class="footer__navigation-list">
+               <li class="footer__navigation-list-item"> <a class="navigation-link" href="#">Terms & Conditions</a></li>
+               <li class="footer__navigation-list-item"> <a class="navigation-link" href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer__social-navigation">
+            <nav class="navigation">
+             <ul class="footer__navigation-list">
+                <li class="footer__navigation-list-item"> <a class="navigation-link" href="#"><img src="/images/Path.png" alt="#"></a></li>
+                <li class="footer__navigation-list-item"> <a class="navigation-link" href="#"><img src="/images/Path (1).png" alt="#"></a></li>
+                <li class="footer__navigation-list-item"> <a class="navigation-link" href="#"><img src="/images/004-instagram.png" alt="#"></a></li>
+             </ul>
+           </nav>
+          </div>
+        </div>
+
+        <div class="footer__copyr">
+          <p class="footer__copyr-text">Copyright 2021 QWERy</p>
+      
+        </div>
+        <div><br><br><br><br><br><br><br></div>
+      </div>
+    </footer> 
+  </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

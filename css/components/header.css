@@ -109,8 +109,11 @@ font-size: 86px;
 }
 
 .header__scrollWindow {
-  margin: 78px 260px 0 673px;;
-}
+  margin: 78px 260px 0 673px;
+    top: 100;
+    left: 100;
+    behavior: 'smooth';
+  }
 
 .scroll__button {
 font-family: 'Open Sans';
@@ -122,4 +125,5 @@ color: #ffffff;
 background-color: transparent;
 border: none;
 cursor: pointer;
+
 }

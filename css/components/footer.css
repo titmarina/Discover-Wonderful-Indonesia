@@ -56,6 +56,10 @@ footer {
   text-decoration: none;
 }
 
+.navigation-link:hover{
+  color: #ffa343;
+}
+
 .footer__social {
   display: flex;
   justify-content: space-between;

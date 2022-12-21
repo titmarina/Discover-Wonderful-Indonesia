@@ -2,7 +2,8 @@
   display: inline-block;
   width: 100%;
   height: 1200px;
-  background: url('/images/2.png') center bottom / 20px, url("/images/Background.png");
+  background: url("/images/2.png") center bottom / 20px,
+    url("/images/Background.png");
   background-size: cover;
 }
 
@@ -28,6 +29,10 @@
   text-decoration: none;
 }
 
+.header__navigetion-link:hover {
+  color: #ffc178;
+}
+
 .header__input {
   background-color: transparent;
 
@@ -40,6 +45,10 @@
   border: none;
 }
 
+.heafer__search-buttom {
+  background-color: transparent;
+  border: none;
+}
 /* HEADER TITLE*/
 
 .header__container__title {
@@ -52,6 +61,10 @@
   color: aliceblue;
 }
 
+.header__social__title:hover {
+  color: #ffc178;
+}
+
 .header__social {
   display: flex;
   align-items: flex-start;
@@ -59,12 +72,21 @@
   flex-direction: column;
 }
 
+
+.header__social-follow {
+  text-decoration: none;
+}
+
+.header__social-hover:hover {
+  background-color: #ffc178;
+}
+
 .header__title {
   margin-left: 247px;
 }
-.header__subtitle-decoration{
+.header__subtitle-decoration {
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 .header__line {
@@ -72,7 +94,7 @@
   height: 3px;
   background: #ffc178;
   margin: 0;
-  border: none; 
+  border: none;
 }
 
 .header__subtitle {
@@ -82,48 +104,50 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 6px;
-  color: #ffc178; 
+  color: #ffc178;
   margin-left: 32px;
 }
 
 .title {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 100px;
-text-transform: capitalize;
-color: #FFFFFF;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #ffffff;
 
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 span {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 86px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 86px;
 }
 
 .header__scrollWindow {
   margin: 78px 260px 0 673px;
-    top: 100;
-    left: 100;
-    behavior: 'smooth';
-  }
+  top: 100;
+  left: 100;
+  behavior: "smooth";
+}
 
 .scroll__button {
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-color: #ffffff;
-background-color: transparent;
-border: none;
-cursor: pointer;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
+.scroll__button:hover {
+color: #ffc178;
 }

@@ -11,3 +11,23 @@ main {
     background-color: black;
     margin: 0 auto;
 }
+
+#matrix {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+#arrowTop::before {
+    content: '^';
+  }
+
+  #arrowTop {
+    height: 9px;
+    width: 14px;
+    color: orange;
+    position: fixed;
+   bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+  }

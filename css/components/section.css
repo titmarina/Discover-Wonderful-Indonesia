@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 .main__content-east {
@@ -63,6 +62,10 @@
   text-decoration: none;
 }
 
+.main__content-transition:hover {
+  color: #ffa343;
+}
+
 .shearch__button {
   width: 239px;
   height: 69px;
@@ -99,7 +102,7 @@
   margin: 0 auto;
 }
 
-.shearch__text-wrapper{
+.shearch__text-wrapper {
   display: flex;
   align-items: center;
 }
